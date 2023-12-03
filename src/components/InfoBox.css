@@ -1,0 +1,9 @@
+.Righttop{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 40px;
+    transition: all 300ms ease;
+    border-radius: 50%;
+}
