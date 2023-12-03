@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ReactApexChart from 'react-apexcharts';
 
@@ -59,7 +58,7 @@ class ApexChart extends React.Component {
           title: {
             text: 'DateTime',
           },
-          type: 'datetime', // Set x-axis type to datetime
+          type: 'datetime', 
           categories: this.getYearLabels(props.data),
           labels: {
             formatter: function (value) {
