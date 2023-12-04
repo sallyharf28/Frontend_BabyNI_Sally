@@ -13,7 +13,6 @@ function App() {
     axios.get('https://localhost:7093/api/fetch/allAggregatedData')
     .then(res => {
       const responseData = res.data;
-      //console.log("response: " , responseData);
       // Assuming responseData is an array of arrays
       if (Array.isArray(responseData) && responseData.length === 4) {
         const [hourlyNeType, hourlyNeAlias, dailyNeType, dailyNeAlias] = responseData;
