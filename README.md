@@ -34,6 +34,8 @@ Install Dependencies (if needed):
 ```bash
 npm install
 ```
+Make sure to have the Retrieve Project (backend-side) running, inorder to have the chart and grid displayed.
+
 Run the development server:
 
 ```bash
